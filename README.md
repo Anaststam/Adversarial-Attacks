@@ -6,7 +6,7 @@ Several machine learning models, including neural networks, consistently misclas
 
 In this project, first we train a basic convolutional neural network on MNIST and craft adversarial examples via gradient descent. The adversarsial examples have a $L_2$ norm of $ \| \tilde{\mathbf{x}} - \mathbf{x} \|_2 = \epsilon$ with $\epsilon=5$ and $L_\infty$ norm of $ \| \tilde{\mathbf{x}} - \mathbf{x} \|_\infty = \epsilon$ with $\epsilon=0.3$. 
 
-Afterwards, we perform advcersarial training on the convolutional neural network. Next, we train a smooth classifier via the principle of randomized smoothing and finally we compare the robustness of the classifiers we created via randomized smoothing.
+Afterwards, we perform adversarial training on the convolutional neural network. Next, we train a smooth classifier via the principle of randomized smoothing and finally we compare the robustness of the classifiers we created via randomized smoothing.
 
 Bibliography:
 * https://arxiv.org/pdf/1412.6572.pdf
