@@ -5,7 +5,8 @@
 Several machine learning models, including neural networks, consistently misclassify adversarial examples—inputs formed by applying small but intentionally worst-case perturbations to examples from the dataset, such that the perturbed input results in the model outputting an incorrect answer with high confidence.
 
 In this project, first we train a basic convolutional neural network on MNIST and craft adversarial examples via gradient descent. There are two types of adversarial examples: 
-* <img src="https://render.githubusercontent.com/render/math?math=L_2"> - bounded attacks that have a <img src="https://render.githubusercontent.com/render/math?math=L_2"> norm of <img src="https://render.githubusercontent.com/render/math?math=\tilde{\mathbf{x}} - \mathbf{x} \|_2 = \epsilon$ with $\epsilon=5">.
+* <img src="https://render.githubusercontent.com/render/math?math=L_2"> - bounded attacks.
+* <img src="https://render.githubusercontent.com/render/math?math=L_\infty">-bounded attacks
 
 ($L_2$-bounded attacks and $L_\infty$-bounded attacks)
 
