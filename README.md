@@ -6,7 +6,7 @@ Several machine learning models, including neural networks, consistently misclas
 
 In this project, first we train a basic convolutional neural network on MNIST and craft adversarial examples via gradient descent ($L_2$-bounded attacks and $L_\infty$-bounded attacks)
 
-<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+<img src="https://render.githubusercontent.com/render/math?math=L_2">
 
 Afterwards, we perform adversarial training on the convolutional neural network. Next, we train a smooth classifier via the principle of randomized smoothing and finally we compare the robustness of the classifiers we created via randomized smoothing.
 
